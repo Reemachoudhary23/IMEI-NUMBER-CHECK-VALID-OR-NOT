@@ -3,7 +3,7 @@
 #include<conio.h>
 void main(){
 int n;
-printf("enter the n");
+printf("enter the number");
 scanf("%d",&n);
 int sum=0;
 int n1=n;
@@ -31,13 +31,13 @@ if(m==15){
 }
 
 if(sum%10==0){
-    printf("valid IMEI no");
+    printf("IMEi is valid");
 }
 else if {
-    printf("not valid IMEI no");
+    printf("IMEI is not valid");
 }
 else{
-    printf("invalid no")
+    printf("Number entered is not valid")
 }
 getch();
 }
